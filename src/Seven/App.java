@@ -22,7 +22,7 @@ public class App {
 
             System.out.println("Small Array -> 1");
             System.out.println("Big Array -> 2");
-            System.out.println("Stop = Stop");
+            System.out.println("Stop -> Stop");
             for (String numberCase = reader.readLine(); !numberCase.equalsIgnoreCase("Stop"); numberCase = reader.readLine()) {
                 switch (Integer.parseInt(numberCase)) {
                     case 1 -> {
